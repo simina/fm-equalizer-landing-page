@@ -1,0 +1,230 @@
+/* -----------------------*/
+/* Custom properties-----*/
+/* -----------------------*/
+:root {
+    /* colors */
+    --clr-light: #FCFAF9;
+    --clr-dark: #191826;
+    --clr-primary: #FA7453;
+
+    /* font-weight */
+    --fs-700: 700;
+    --fs-400: 400;
+
+    /* font-families */
+    --ff-ibm-plex-sans: 'IBM Plex Sans'
+}
+
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+/* general */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+/* general */
+body {
+    height: 100vh;
+    font-size: 16px;
+    font-style: normal;
+    font-family: var(--ff-ibm-plex-sans);
+    background-color: var(--clr-light);
+    /*background: url("assets/bg-main-mobile.png") no-repeat top;*/
+}
+
+p {
+    font-weight: var(--fs-400);
+
+}
+
+/* header section */
+header {
+    margin-left: 1.53rem;
+    margin-top: 2.5rem;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-weight: var(--fs-700);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.454545px;
+    width: 80%;
+    color: var(--clr-dark);
+}
+
+.header-background1 {
+    position: absolute;
+    width: 281.4px;
+    height: 281.4px;
+    left: 159px;
+    top: -104px;
+
+    background: #40FFF6;
+    mix-blend-mode: normal;
+    opacity: 0.28;
+    filter: blur(68px);
+}
+
+.header-background2 {
+    position: absolute;
+    width: 281.4px;
+    height: 281.4px;
+    left: 159px;
+    top: 94.6px;
+
+    background: #FF9201;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    filter: blur(68px);
+}
+
+.header-desc {
+    margin-top: 1.25rem;
+    color: var(--clr-dark);
+    width: 95%;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+/* main section */
+main {
+    margin-top: 4.25rem;
+    padding-top: 6.125rem;
+}
+
+.main-col-1 {
+    background-color: var(--clr-dark);
+    border-radius: 0.75rem;
+
+    display: grid;
+    place-items: center;
+}
+
+.main-bg1 {
+    width: 80%;
+}
+
+.main-bg2 {
+    position: absolute;
+    width: 60%;
+    margin-top: -190px;
+}
+
+.main-col-2 {
+    background-color: var(--clr-primary);
+    border-radius: 0.75rem;
+    margin-top: -50px;
+
+    color: var(--clr-light);
+    padding: 3rem 2.25rem 3rem 2.25rem;
+}
+
+h2 {
+    font-weight: var(--fs-700);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.main-desc {
+    margin-top: 0.75rem;
+    font-weight: var(--fs-400);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.main-price {
+    margin-top: 2.25rem;
+    display: flex;
+    place-items: center;
+}
+
+.main-price-value {
+    font-weight: var(--fs-700);
+    font-size: 4.06rem;
+    line-height: 3.25rem;
+}
+
+.main-price-period {
+    font-weight: var(--fs-400);
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.bg-dark {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.bg-light {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+button {
+    display: block;
+    width: 100%;
+
+    font-weight: var(--fs-700);
+    font-size: 1.125rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: -0.18px;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    border: none;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    margin-right: 5px;
+}
+
+/* footer */
+footer {
+    padding: 4rem 1.5rem;
+}
+
+.footer-desc {
+    margin-top: 2rem;
+    font-weight: var(--fs-400);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: var(--clr-dark);
+}
+
+.social-media {
+    margin-top: 4rem;
+}
+
+.social-icon {
+    margin-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
