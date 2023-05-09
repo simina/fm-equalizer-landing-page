@@ -46,7 +46,6 @@ body {
 
 p {
     font-weight: var(--fs-400);
-
 }
 
 /* header section */
@@ -63,6 +62,10 @@ h1 {
     letter-spacing: -0.454545px;
     width: 80%;
     color: var(--clr-dark);
+}
+
+.logo-image {
+    display: none;
 }
 
 .header-background1 {
@@ -222,6 +225,57 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
+/* WORK IN PROGRESS*/
+    /* header */
+    header {
+        margin-left: 2.43rem;
+        margin-top: 3.875rem;
+    }
+
+    .logo-image {
+        display: unset;
+        position: absolute;
+        width: 266.67px;
+        height: 400px;
+        left: 537px;
+        top: -32px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .header-desc {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        width: 80%;
+    }
+
+    /* main */
+    main {
+        padding: 2rem;
+        margin-top: 15.5rem;
+    }
+
+    .main-bg1 {
+        width: 50%;
+        height: 90%;
+        position: absolute;
+    }
+
+    .main-bg2 {
+        width: 33%;
+        position: absolute;
+        margin-left: 4rem;
+    }
+
+    .main-col-2 {
+        position: absolute;
+        width: 50%;
+        margin-left: 13.5rem;
+        margin-top: -25rem;
+    }
 
 }
 
